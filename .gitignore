@@ -6,6 +6,19 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 .pnpm-debug.log*
+# Cache interno de Angular CLI
+.angular/
+
+# Salidas de compilación / empaquetado
+/dist/
+/out-tsc/
+/tmp/
+
+# Cobertura de tests con Karma/Istanbul
+/coverage/
+
+# Archivos de configuración de entornos locales
+/src/environments/*.local.ts
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
