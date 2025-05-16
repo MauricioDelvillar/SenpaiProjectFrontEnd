@@ -147,3 +147,10 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# IDEs y Sistema Operativo
+.vscode/  
+.idea/                    
+*.iml  
+.DS_Store
+Thumbs.db
